@@ -1,4 +1,5 @@
 def reverso(numero):
+    numero = int(input("Digite seu numero: "))
     str_numero = str(numero)
     numero_invertido = str_numero[::-1]
     print(int(numero_invertido))
