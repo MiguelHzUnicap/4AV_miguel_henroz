@@ -1,6 +1,6 @@
+numero = int(input("Digite o valor do numero: "))
 def quant_digitos(numero):
-    numero = int(input("Digite o valor do numero: "))
     numero = str(numero)
     print(len(numero))
 
-quant_digitos(10)
+quant_digitos(numero)
