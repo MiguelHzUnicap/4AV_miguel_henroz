@@ -1,1 +1,15 @@
+base = int(input("Digite o valor da base:"))
+expoente = int(input("Digite o valor do expoente da base:"))
+def potencia(base,expoente):
+    if expoente >= 0:
+        valor_final = 1
+        for i in range(expoente):
+            valor_final = valor_final * base
+        print(valor_final)
+    else:
+        valor_final = 1
+        for numero in range(-expoente):
+            valor_final = valor_final / base
+        print(valor_final)
 
+potencia(base,expoente)
