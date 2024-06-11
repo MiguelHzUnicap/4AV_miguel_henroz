@@ -1,0 +1,12 @@
+numero1 = int(input("digite o valor do primeiro numero: "))
+numero2 = int(input("digite o valor do segundo numero: "))
+numero3 = int(input("digite o valor do terceiro numero: "))
+def maior(numero1,numero2,numero3):
+    if numero1 > numero2 and numero1 > numero3:
+        print("maior numero eh o primeiro")
+    elif numero2 > numero1 and numero2 > numero3:
+        print("maior numero eh o segundo")
+    else:
+        print("maior numero eh o terceiro")
+
+maior(numero1,numero2,numero3)
