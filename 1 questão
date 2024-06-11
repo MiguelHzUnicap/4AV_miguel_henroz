@@ -1,14 +1,10 @@
+numero = int(input("Digite seu numero: "))
 def reverso(numero):
-    numero = int(input("Digite seu numero: "))
     str_numero = str(numero)
     numero_invertido = str_numero[::-1]
     print(int(numero_invertido))
 
-reverso(123)
-reverso(101)
-reverso(1010101001)
-reverso(100)
-reverso(222)
+reverso(numero)
 
 
 #valor de reverso nao esta funcionando em numeros com zeros em sequencia
